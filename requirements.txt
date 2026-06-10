@@ -1,0 +1,13 @@
+streamlit
+yfinance
+pandas
+numpy
+PyPortfolioOpt
+plotly
+scipy
+matplotlib
+seaborn
+scikit-learn
+kagglehub
+groq
+python-dotenv
