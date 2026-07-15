@@ -1,4 +1,4 @@
-# 💰 Portföy Öneri Sistemi
+# Portföy Öneri Sistemi
 
 Kullanıcının risk profiline uygun, optimal varlık dağılımı üreten ve önerilerini yapay zekâ ile Türkçe açıklayan bir portföy öneri uygulaması.
 
@@ -6,7 +6,7 @@ Markowitz Modern Portföy Teorisi (MPT) ve Monte Carlo simülasyonu ile optimize
 
 ---
 
-## ✨ Özellikler
+## Özellikler
 
 - **Risk profili anketi** — 5 soruluk ağırlıklı puanlama ile 3 profil (Muhafazakâr / Dengeli / Agresif)
 - **Kişiselleştirme** — Yaş, vade, hedef ve kayıp toleransı portföy kısıtlarını doğrudan etkiler; aynı profildeki farklı kişiler farklı portföyler alır
@@ -18,7 +18,7 @@ Markowitz Modern Portföy Teorisi (MPT) ve Monte Carlo simülasyonu ile optimize
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 
 ```bash
 # 1. Bağımlılıkları yükleyin
@@ -39,7 +39,7 @@ Uygulama varsayılan olarak `http://localhost:8501` adresinde açılır.
 
 ---
 
-## 🗂️ Proje Yapısı
+## Proje Yapısı
 
 ```
 portfoy-oneri/
@@ -62,7 +62,7 @@ portfoy-oneri/
 
 ---
 
-## 📊 Veri Kaynakları
+## Veri Kaynakları
 
 | Kaynak | Ne için | Nasıl |
 |--------|---------|-------|
@@ -72,7 +72,7 @@ portfoy-oneri/
 
 ---
 
-## 🧠 Nasıl Çalışır?
+## Nasıl Çalışır?
 
 1. **Anket** → Kullanıcı 5 soruyu yanıtlar, ağırlıklı puanla profil belirlenir
 2. **Kişiselleştirme** → Yaş/vade/hedef/tolerans portföy kısıtlarını ayarlar
@@ -83,12 +83,12 @@ portfoy-oneri/
 
 ---
 
-## ⚠️ Sorumluluk Reddi
+## Sorumluluk Reddi
 
 Bu uygulama **eğitim ve gösterim** amaçlıdır. Üretilen portföyler ve AI yorumları **yatırım tavsiyesi değildir**. Yatırım kararları için lisanslı bir finansal danışmana başvurun.
 
 ---
 
-## 🛠️ Teknoloji Yığını
+## Teknoloji Yığını
 
 Python · Streamlit · PyPortfolioOpt · NumPy/Pandas/SciPy · scikit-learn · Plotly · yfinance · kagglehub · Groq (Llama 3.3 70B)
